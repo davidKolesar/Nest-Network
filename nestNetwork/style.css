@@ -1,0 +1,61 @@
+    body {
+    background-color: #edeff2;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 13px;
+      display: flex;
+      flex-direction: column;
+      max-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .members-count,
+    .members-list,
+    .messages {
+     background-color: white;
+      border: 4px solid #e4e4e4;
+      padding: 15px;
+      bottom: 15px;
+    }
+    .messages {
+      flex-shrink: 1;
+      overflow: auto;
+    }
+    .message {
+    background-color: white;
+      padding: 5px 0;
+    }
+    .message .member {
+     background-color: white;
+      display: inline-block;
+    }
+    .member {
+     background-color: white;
+      padding-right: 10px;
+      position: relative;
+    }
+    .message-form {
+     background-color: white;
+      display: flex;
+      flex-shrink: 0;
+    }
+    .message-form__input {
+     background-color: white;
+      flex-grow: 1;
+      border: 1px solid #dfdfdf;
+      padding: 10px 15px;
+      font-size: 16px;
+    }
+    .message-form__button {
+      margin: 10px;
+    }
+    
+    img {
+    border: 2px solid #ddd;
+    border-radius: 50%;
+}
+
+	#footer {
+	   position:fixed;
+	   bottom:0;
+	   width:100%;
+	}
