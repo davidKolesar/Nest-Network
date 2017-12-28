@@ -15,3 +15,13 @@ HTML
 CSS
 
 Scaledrone messaging service
+
+Functionality:
+
+Page is fully collapsable (via Bootstrap).
+Page sanitizes data.
+Page has (not annoying) sound effects. 
+Page sanitizes data send as messages.
+Page protects against Cross Site Scripting.
+Page allows for multiple users to interact with each other (no limit).
+Page is nimble and loads quickly.
